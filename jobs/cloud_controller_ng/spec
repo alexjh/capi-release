@@ -642,3 +642,6 @@ properties:
   cc.reserved_private_domains:
     description: "File location of a list of reserved private domains (for file format, see https://publicsuffix.org/)"
     default: ~
+
+  cc.core_file_pattern:
+    description: "Filename template for core dump files"
